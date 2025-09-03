@@ -4,7 +4,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.2.2'
+        classpath 'com.android.tools.build:gradle:8.8.1'
     }
 }
 
@@ -16,11 +16,12 @@ repositories {
 }
 
 android {
+    namespace "com.peyo.mictest"
     compileSdkVersion 33
 
     defaultConfig {
         applicationId "com.peyo.mictest"
-        minSdkVersion 24
+        minSdkVersion 31
         targetSdkVersion 33
     }
 
